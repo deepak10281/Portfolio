@@ -300,7 +300,7 @@ const downloadResumeBtn = document.getElementById('downloadResumeBtn');
 downloadResumeBtn?.addEventListener('click', (e) => {
   e.preventDefault();
 
-  const fileUrl = './assets/certs/Deepak_Malviya_Resume.pdf'; // Update with the correct path to your resume PDF
+  const fileUrl = 'assets/certs/Deepak_Malviya.pdf'; // Update with the correct path to your resume PDF
   const a = document.createElement('a');
   a.href = fileUrl;
   a.download = 'Deepak_Malviya_Resume.pdf';
